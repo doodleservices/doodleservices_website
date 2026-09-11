@@ -1,0 +1,42 @@
+{
+  "systemLabel": "SYS.ONLINE",
+  "frequency": "144HZ",
+  "scrollLabel": "SCRL",
+  "sections": [
+    {
+      "id": "hero",
+      "code": "01",
+      "label": "HERO"
+    },
+    {
+      "id": "manifesto",
+      "code": "02",
+      "label": "CORE"
+    },
+    {
+      "id": "services",
+      "code": "03",
+      "label": "DISCIPLINES"
+    },
+    {
+      "id": "process",
+      "code": "04",
+      "label": "PIPELINE"
+    },
+    {
+      "id": "portfolio",
+      "code": "05",
+      "label": "WORKS"
+    },
+    {
+      "id": "pricing",
+      "code": "06",
+      "label": "SPRINTS"
+    },
+    {
+      "id": "contact",
+      "code": "07",
+      "label": "TRANSMIT"
+    }
+  ]
+}

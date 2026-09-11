@@ -1,0 +1,29 @@
+[
+  {
+    "id": "m1",
+    "name": "Gaurav",
+    "role": "Owner, Founder & CEO",
+    "specialty": "Executive Leadership, Strategic Growth & Global Partnerships",
+    "experience": "Chief Executive Officer",
+    "avatarInitials": "G",
+    "bio": "Owner, Founder and CEO guiding the studio's global vision, enterprise partnerships, strategic client engagements, and high-impact business growth."
+  },
+  {
+    "id": "m2",
+    "name": "Pradyumn",
+    "role": "Owner, Founder & CTO",
+    "specialty": "Full-Stack Web, Mobile Apps, Cloud Systems & AI",
+    "experience": "Chief Technology Officer, Head of Production & Engineering",
+    "avatarInitials": "P",
+    "bio": "Owner, Founder and CTO directing complete studio production, technical architecture, and senior engineering delivery across web platforms, mobile apps, and scalable cloud systems."
+  },
+  {
+    "id": "m3",
+    "name": "Hariom",
+    "role": "Owner, Founder & CFO",
+    "specialty": "Financial Strategy, Commercial Operations & Marketing Growth",
+    "experience": "Chief Financial Officer",
+    "avatarInitials": "H",
+    "bio": "Owner, Founder and CFO leading financial planning, commercial operations, marketing strategy, high-retention video editing, and brand expansion."
+  }
+]

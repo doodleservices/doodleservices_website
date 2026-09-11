@@ -1,0 +1,62 @@
+[
+  {
+    "id": "f1",
+    "category": "AGENCY ADVANTAGE",
+    "question": "What makes Doodle Services different from hiring separate freelancers or large agencies?",
+    "answer": "Traditional hiring forces you to manage 4 to 5 disconnected freelancers (designers, developers, animators, SEO managers) whose work rarely integrates cleanly. Large agencies, on the other hand, charge exorbitant overhead and assign your project to junior contractors. Doodle Services unites 8 core digital disciplines under one cohesive in-house senior team — delivering rapid 1-3 week sprint velocity, unified quality control, and zero communication gaps."
+  },
+  {
+    "id": "f2",
+    "category": "MODULAR ENGAGEMENT",
+    "question": "Can I hire Doodle Services for just one service, or do I need a full package?",
+    "answer": "Completely modular. You can hire us for a single targeted discipline — such as a standalone high-performance Next.js website, a bespoke iOS/Android mobile app in Flutter, a 2D animated product video, or technical SEO optimization — or combine multiple disciplines into a unified launch sprint. You only pay for what your roadmap requires."
+  },
+  {
+    "id": "f3",
+    "category": "DELIVERY TIMELINES",
+    "question": "How fast can you launch our project, and what does the timeline look like?",
+    "answer": "Most core web platforms, MVP mobile apps, and brand design packages launch within 1 to 3 weeks. Because our designers, engineers, and motion specialists work in parallel rather than serial bottlenecks, we build functional prototypes in days and deploy fully tested production code in weeks."
+  },
+  {
+    "id": "f4",
+    "category": "TECH STACK & ARCHITECTURE",
+    "question": "What technologies and frameworks does Doodle Services build with?",
+    "answer": "We build with modern, enterprise-grade engineering stacks: Next.js 16 (App Router, Server Actions), React 19, TypeScript, and Tailwind CSS for web; Flutter and React Native for native iOS & Android apps; Three.js for interactive 3D robotics and WebGL visuals; Node.js and FastAPI with PostgreSQL/Supabase for real-time backends; and Figma for digital design systems."
+  },
+  {
+    "id": "f5",
+    "category": "TIMEZONE & COMMUNICATION",
+    "question": "How do you coordinate with clients across US, UK, and European timezones?",
+    "answer": "We maintain daily 4-to-6 hour real-time working overlap with US (EST & PST), UK (GMT/BST), and European (CET) business hours. We run agile sprints with dedicated private Slack or Microsoft Teams channels, async Loom video walk-throughs, and structured weekly milestone reviews to keep everyone in total alignment."
+  },
+  {
+    "id": "f6",
+    "category": "IP & ASSET OWNERSHIP",
+    "question": "Do we own the source code, design files, and video assets upon delivery?",
+    "answer": "Yes, 100%. Upon final milestone sign-off, you receive full intellectual property rights, transfer of GitHub repositories, raw editable Figma design files, master vector assets, and original video project files. There are zero licensing fees, proprietary lock-ins, or hidden royalty clauses."
+  },
+  {
+    "id": "f7",
+    "category": "REPLATFORMING & REDESIGN",
+    "question": "Can you modernize, speed up, or redesign our existing slow website or app?",
+    "answer": "Absolutely. A large share of our client engagements involves re-engineering slow, legacy systems (such as bloated WordPress sites, template stores, or outdated codebases) into blistering, modern Next.js and Flutter architectures with 95+ Core Web Vitals, sub-85ms response times, and premium modern UX."
+  },
+  {
+    "id": "f8",
+    "category": "POST-LAUNCH MAINTENANCE",
+    "question": "Do you provide ongoing support, bug fixes, and maintenance after launch?",
+    "answer": "Every project includes complimentary post-launch warranty support (14 to 60 days depending on your sprint tier). For continuous growth, we provide flexible monthly retainers that include feature additions, infrastructure monitoring, security patches, ongoing SEO audits, and creative updates."
+  },
+  {
+    "id": "f9",
+    "category": "REVISIONS & QUALITY ASSURANCE",
+    "question": "How are revisions, feedback cycles, and quality testing handled?",
+    "answer": "We provide live staging URLs where your team can review interactive builds in real time. We include structured feedback rounds during both wireframing and engineering phases. Every release undergoes rigorous automated linting, type-checking, responsive viewport testing, and cross-browser validation before production deployment."
+  },
+  {
+    "id": "f10",
+    "category": "PROJECT ONBOARDING",
+    "question": "How do we get started, and how quickly can our sprint kick off?",
+    "answer": "Getting started is seamless. Submit an inquiry through our contact form or book a brief discovery call. We analyze your requirements and deliver a transparent, fixed-scope proposal with exact milestones within 24 hours. Once approved, onboarding is complete and development begins within 48 hours."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "starter",
+    "name": "STARTER",
+    "priceNote": "Custom Sprint Quote",
+    "turnaround": "1-2 WEEKS",
+    "bestFor": "Solo founders & small businesses needing a high-impact digital presence.",
+    "description": "Ideal for launching a sleek, ultra-fast landing page or business site with proper on-page SEO foundations.",
+    "features": [
+      "Custom Next.js Website (Up to 5 Pages)",
+      "Mobile-First Responsive Layout & Micro-Animations",
+      "Core Web Vitals 95+ Performance Guarantee",
+      "On-Page Technical SEO & Schema Integration",
+      "Interactive Contact Form & Lead Routing",
+      "1 Dedicated Revision Round",
+      "14 Days Post-Launch Support & Walkthrough"
+    ]
+  },
+  {
+    "id": "growth",
+    "name": "GROWTH",
+    "badge": "MOST POPULAR",
+    "recommended": true,
+    "priceNote": "Tailored Studio Quote",
+    "turnaround": "2-3 WEEKS",
+    "bestFor": "Growing brands requiring cohesive web, branding, graphics, and video.",
+    "description": "The complete multi-discipline package combining high-end web development with high-converting visual collateral.",
+    "features": [
+      "Everything in Starter Tier",
+      "Full UI/UX Figma Design System & Tokens",
+      "Custom Graphic Design & 4 Social / Launch Posters",
+      "Short-Form Video Ad Edit or 2D Motion Logo Ident",
+      "Comprehensive Keyword Strategy & Google Search Console",
+      "Parallel Execution Workflow (Design + Dev)",
+      "2 Dedicated Revision Rounds",
+      "30 Days Post-Launch Support"
+    ]
+  },
+  {
+    "id": "full-studio",
+    "name": "FULL STUDIO",
+    "badge": "ENTERPRISE & STARTUPS",
+    "priceNote": "Bespoke Partnership",
+    "turnaround": "3-5 WEEKS",
+    "bestFor": "Startups and enterprises demanding end-to-end web, mobile app, and cinematic motion.",
+    "description": "A comprehensive digital launch vehicle: cross-platform mobile app or complex web platform with cinematic video and motion graphics.",
+    "features": [
+      "Everything in Growth Tier",
+      "Cross-Platform Mobile App (iOS + Android) or Web Portal",
+      "Full Explainer Animation / Motion Graphics Video",
+      "Suite of 8 Campaign Posters & Social Creative Templates",
+      "Advanced Headless CMS & Realtime Database Integration",
+      "Enterprise Security, SSL & High-Availability Edge CDN",
+      "Unlimited Revision Iterations within Project Scope",
+      "60 Days Dedicated Engineering & Retainer Access"
+    ]
+  }
+]

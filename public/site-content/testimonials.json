@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t1",
+    "author": "Bhragunandan Prajapati",
+    "role": "Founder & Owner",
+    "company": "CopyClip",
+    "avatarInitials": "BP",
+    "serviceReceived": "Cross-Platform App Dev + Kinetic Animation + NoSQL Architecture",
+    "quote": "Working with Doodle Services was transformative for CopyClip. They engineered our cross-platform mobile application with fluid 60 FPS performance, built our offline-first NoSQL engine, and delivered a world-class user experience. Their speed, technical architecture, and product polish exceeded every expectation."
+  },
+  {
+    "id": "t2",
+    "author": "Krishna",
+    "role": "Owner & Managing Director",
+    "company": "Krishna Jewellers",
+    "avatarInitials": "KJ",
+    "serviceReceived": "Full-Stack Mobile App + Web Storefront + Admin Panel & Backend",
+    "quote": "Doodle Services created our complete digital ecosystem from scratch — the customer mobile app, responsive website, merchant admin panel, and real-time backend. The live gold rates sync instantly across all devices, our product catalog with exact gram weights runs flawlessly, and customer inquiries have grown dramatically. Truly exceptional full-stack execution."
+  }
+]

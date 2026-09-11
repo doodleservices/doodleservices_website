@@ -1,0 +1,190 @@
+[
+  {
+    "id": "web-dev",
+    "number": "01",
+    "title": "Web Development",
+    "tag": "ENGINEERING",
+    "featured": true,
+    "shortDesc": "Custom-built, fast, scalable websites using modern frameworks — no templates, no bloat.",
+    "fullDesc": "We engineer enterprise-grade Next.js, React, and TypeScript web applications engineered for speed, SEO excellence, and conversion efficiency.",
+    "deliverables": [
+      "Custom Full-Stack Next.js / React Apps",
+      "Interactive 3D / Motion Micro-Interactions",
+      "Headless CMS Integration (Sanity / Strapi)",
+      "High-Converting Landing Pages",
+      "Ultra-Fast Lighthouse 95+ Performance"
+    ],
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "iconName": "Code2"
+  },
+  {
+    "id": "app-dev",
+    "number": "02",
+    "title": "App Development",
+    "tag": "CROSS-PLATFORM",
+    "featured": true,
+    "shortDesc": "Cross-platform mobile apps built to launch on both Android and iOS from a single unified codebase.",
+    "fullDesc": "Native-feel mobile apps that deliver fluid 60fps experiences with offline-first caching, push notifications, and frictionless onboarding.",
+    "deliverables": [
+      "iOS & Android Dual Store Release",
+      "Realtime Cloud Sync & Notifications",
+      "Secure In-App Authentication & Payments",
+      "Clean MVVM / Bloc State Architecture",
+      "Ongoing Store Compliance & Maintenance"
+    ],
+    "technologies": [
+      "Flutter",
+      "React Native",
+      "Firebase",
+      "REST / GraphQL",
+      "Swift / Kotlin"
+    ],
+    "iconName": "Smartphone"
+  },
+  {
+    "id": "web-design",
+    "number": "03",
+    "title": "Web Designing",
+    "tag": "UI / UX LABS",
+    "featured": false,
+    "shortDesc": "UI/UX design that looks premium and converts — wireframes to pixel-perfect design systems.",
+    "fullDesc": "We design bespoke digital interfaces with precision typography, responsive bento grids, and cohesive Figma design libraries.",
+    "deliverables": [
+      "End-to-End Figma Component Systems",
+      "Interactive High-Fidelity Prototypes",
+      "Information Architecture & User Journeys",
+      "Micro-Animations & Interaction Specs",
+      "Comprehensive Style Guide Tokens"
+    ],
+    "technologies": [
+      "Figma",
+      "Design Tokens",
+      "Prototyping",
+      "Design Systems"
+    ],
+    "iconName": "Palette"
+  },
+  {
+    "id": "editing",
+    "number": "04",
+    "title": "Media Editing",
+    "tag": "POST-PRODUCTION",
+    "featured": false,
+    "shortDesc": "Photo and content editing, cleanup, and enhancement for anything your brand publishes.",
+    "fullDesc": "Precision retouching, object removal, high-end color grading, and asset preparation across all digital touchpoints.",
+    "deliverables": [
+      "High-Resolution Product Retouching",
+      "Color Correction & Look Development",
+      "Multi-Format Asset Optimization",
+      "Visual Clean-up & Artifact Elimination",
+      "Brand Asset Cataloging"
+    ],
+    "technologies": [
+      "Photoshop",
+      "Lightroom",
+      "Capture One",
+      "Generative AI Clean"
+    ],
+    "iconName": "Sliders"
+  },
+  {
+    "id": "animation",
+    "number": "05",
+    "title": "2D & Motion Animation",
+    "tag": "KINETIC LABS",
+    "featured": true,
+    "shortDesc": "2D motion graphics and explainer animation that make your product or story impossible to ignore.",
+    "fullDesc": "From technical product walkthroughs to logo motion IDs and social reels, we bring concepts to life through dynamic visual rhythm.",
+    "deliverables": [
+      "High-Impact Explainer Videos",
+      "Kinetic Typography & UI Product Tours",
+      "Animated Brand Idents & Social Hooks",
+      "Lottie / SVG Web Animations",
+      "Custom Sound Design & Mixed Audio"
+    ],
+    "technologies": [
+      "After Effects",
+      "Rive",
+      "Lottie",
+      "Premiere",
+      "Illustrator"
+    ],
+    "iconName": "Film"
+  },
+  {
+    "id": "video-editing",
+    "number": "06",
+    "title": "Video Editing",
+    "tag": "CINEMATIC",
+    "featured": false,
+    "shortDesc": "Reels, ads, promos, and long-form edits with pacing and polish that keeps viewers watching.",
+    "fullDesc": "Data-driven retention pacing, sound design, punchy captions, and seamless transitions engineered for maximum watch time and conversions.",
+    "deliverables": [
+      "Viral Short-Form Reels, TikToks & Shorts",
+      "Commercials, Brand Spotlights & Ad Creatives",
+      "Long-Form YouTube & Documentary Cuts",
+      "Sound Design, Audio EQ & Foley",
+      "Custom Subtitles & Dynamic Kinetic Text"
+    ],
+    "technologies": [
+      "Premiere Pro",
+      "DaVinci Resolve",
+      "Audition",
+      "Motion Graphics"
+    ],
+    "iconName": "Clapperboard"
+  },
+  {
+    "id": "poster-creation",
+    "number": "07",
+    "title": "Poster & Graphic Design",
+    "tag": "VISUAL IDENTITY",
+    "featured": false,
+    "shortDesc": "Scroll-stopping poster and social creative design for campaigns, events, and everyday posting.",
+    "fullDesc": "Bold visual hierarchy, eye-catching balance, and thumb-stopping creatives tailored for launch announcements and event campaigns.",
+    "deliverables": [
+      "Campaign Key Visuals & Master Posters",
+      "Omni-Channel Social Media Ad Creatives",
+      "Event Banners & Digital Billboards",
+      "Physical Print-Ready Vector Formats",
+      "Modular Social Template Bundles"
+    ],
+    "technologies": [
+      "Illustrator",
+      "Photoshop",
+      "InDesign",
+      "Vector Engineering"
+    ],
+    "iconName": "LayoutGrid"
+  },
+  {
+    "id": "seo",
+    "number": "08",
+    "title": "SEO & Growth",
+    "tag": "SEARCH INTELLIGENCE",
+    "featured": true,
+    "shortDesc": "On-page and technical SEO so the site we build actually gets found on Google.",
+    "fullDesc": "Comprehensive site audits, Core Web Vitals optimization, semantic schema markup, and content roadmaps designed to rank organically.",
+    "deliverables": [
+      "Technical Architecture & Crawlability Audits",
+      "Core Web Vitals 99+ Performance Tuning",
+      "Structured Data & Rich Snippet JSON-LD",
+      "Keyword Mapping & Competitive Intelligence",
+      "Search Console & Analytics Telemetry Setup"
+    ],
+    "technologies": [
+      "Google Search Console",
+      "Ahrefs",
+      "Schema.org",
+      "Lighthouse",
+      "Next SEO"
+    ],
+    "iconName": "TrendingUp"
+  }
+]

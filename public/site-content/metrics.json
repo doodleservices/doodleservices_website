@@ -1,0 +1,30 @@
+[
+  {
+    "id": "edge-speed",
+    "value": "<85",
+    "suffix": "ms",
+    "label": "GLOBAL TTFB SPEED",
+    "description": "Sub-second load speeds across US, EU & APAC via distributed edge CDN & 100/100 Core Web Vitals."
+  },
+  {
+    "id": "turnaround",
+    "value": "1-2",
+    "suffix": " WKS",
+    "label": "AGILE MVP SPRINT",
+    "description": "Rapid agile delivery from architectural discovery to production-ready global launch."
+  },
+  {
+    "id": "timezone",
+    "value": "100",
+    "suffix": "%",
+    "label": "US / UK TIMEZONE SYNC",
+    "description": "Real-time Slack/Teams collaboration aligned with EST, PST, GMT & European business hours."
+  },
+  {
+    "id": "compliance",
+    "value": "GDPR",
+    "suffix": " READY",
+    "label": "ENTERPRISE SECURITY",
+    "description": "Strict international privacy, zero-leakage architecture, and clean audited codebases."
+  }
+]

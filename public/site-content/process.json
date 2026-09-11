@@ -1,0 +1,42 @@
+[
+  {
+    "stepNumber": "PHASE 01",
+    "title": "Discover & Deconstruct",
+    "description": "We learn your brand, goals, and target audience. We map requirements, define tech architectures, and eliminate guesswork.",
+    "highlights": [
+      "Deep Intake Workshop",
+      "Competitive Landscape Scan",
+      "Unified Roadmap & Milestones"
+    ]
+  },
+  {
+    "stepNumber": "PHASE 02",
+    "title": "Design & Build in Parallel",
+    "description": "We design, develop, and animate concurrently — not in silos. Prototypes become production code with real-time feedback loops.",
+    "highlights": [
+      "Interactive Figma Tokens",
+      "Clean Component Engineering",
+      "Motion Choreography Sync"
+    ]
+  },
+  {
+    "stepNumber": "PHASE 03",
+    "title": "Review & Refine",
+    "description": "You review, we revise until it's right. Every pixel, interaction, and mobile edge case is battle-tested across devices.",
+    "highlights": [
+      "Device & Cross-Browser QA",
+      "Direct Revision Cycles",
+      "Performance Benchmark 95+"
+    ]
+  },
+  {
+    "stepNumber": "PHASE 04",
+    "title": "Launch & Grow",
+    "description": "We deploy to high-availability edge networks, optimize on-page SEO, set up telemetry, and stand by your side post-launch.",
+    "highlights": [
+      "Zero-Downtime Deployment",
+      "Full Schema & Meta Indexing",
+      "Ongoing Studio Support"
+    ]
+  }
+]

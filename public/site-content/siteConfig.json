@@ -1,0 +1,64 @@
+{
+  "name": "DOODLE SERVICES",
+  "shortName": "DOODLE [SERVICES]",
+  "domain": "doodleservices.com",
+  "tagline": "One Studio. Every Digital Need.",
+  "positioning": "A premier full-spectrum digital engineering & design studio partnering with high-growth startups and global enterprises across North America, Europe, and worldwide — delivering production-grade web apps, native mobile platforms, UI/UX systems, and technical SEO with zero freelancer fragmentation.",
+  "subheadline": "Full-stack web & app development, bespoke UI/UX, motion design, and organic search growth under one singular roof. Real-time timezone sync with US & European teams, rapid 1-2 week sprints, and verifiable engineering benchmarks.",
+  "systemStatus": "STUDIO ONLINE // ACCEPTING Q3 CLIENTS",
+  "uptime": "99.98%",
+  "turnaroundAvg": "1-3 WEEKS",
+  "contactEmail": "doodleservices.business@gmail.com",
+  "phone": "+91 9453283619",
+  "whatsapp": "https://wa.me/9453283619?text=Hello%20Doodle%20Services%2C%20I%20would%20like%20to%20discuss%20a%20project",
+  "whatsappNumber": "+91 9453283619",
+  "location": "Orai, Uttar Pradesh, India // Global Remote Studio",
+  "locationMapUrl": "https://www.google.com/maps/@25.98348,79.446015,2509m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDkwOC4wIKXMDSoASAFQAw%3D%3D",
+  "socials": {
+    "twitter": "https://x.com/doodle_services",
+    "telegram": "https://t.me/pradyumnprajapati",
+    "linkedin": "https://linkedin.com/company/doodleservices",
+    "instagram": "https://instagram.com/doodleservices"
+  },
+  "navLinks": [
+    {
+      "label": "SERVICES",
+      "href": "#services"
+    },
+    {
+      "label": "PROCESS",
+      "href": "#process"
+    },
+    {
+      "label": "PORTFOLIO",
+      "href": "#portfolio"
+    },
+    {
+      "label": "PRICING",
+      "href": "#pricing"
+    },
+    {
+      "label": "TEAM",
+      "href": "#team"
+    },
+    {
+      "label": "FAQ",
+      "href": "#faq"
+    },
+    {
+      "label": "CONTACT",
+      "href": "#contact"
+    }
+  ],
+  "metaKeywords": [
+    "Doodle Services",
+    "Web Development",
+    "App Development",
+    "Web Design",
+    "UI/UX",
+    "2D Animation",
+    "Video Editing",
+    "Poster Creation",
+    "SEO"
+  ]
+}

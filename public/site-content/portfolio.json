@@ -1,0 +1,384 @@
+[
+  {
+    "id": "proj-krishna-jewellers",
+    "title": "Krishna Jewellers — Full-Stack Commerce, Admin Suite & Real-Time Backend",
+    "client": "Krishna Jewellers (Owner: Krishna)",
+    "clientLocation": "Khushipura, Rath, Uttar Pradesh (India)",
+    "category": "FULL-STACK APP, ADMIN & BACKEND",
+    "image": "/images/projects/krishna_jewellers_preview.jpg",
+    "description": "Full-fledged luxury jewellery commerce platform delivered for Krishna Jewellers, Rath (UP). Features a high-conversion customer mobile app and web platform with real-time 24K/22K/18K gold rate ticker, hierarchical catalog (Rings, Necklaces, Chains, Kangan), automated gram weight calculations, and automated digital inquiry and order pipeline. Backed by a dedicated merchant Admin Panel and scalable Node.js microservices for instantaneous bullion price updates and inventory control.",
+    "deliverables": [
+      "Customer Mobile App & Responsive Web Storefront",
+      "Merchant Admin Panel & Inventory Control Dashboard",
+      "Real-Time Bullion Rate Sync Engine (<95ms Latency)",
+      "Hallmark Pure Gold Catalog System & Weight Calculator",
+      "Direct SKU Inquiry & Digital Order Pipeline",
+      "Store Locator & Google Maps Directions Integration"
+    ],
+    "metrics": "<95ms Bullion Sync // 100% Digital Order Pipeline",
+    "link": "https://krishna-jewellers-y7h4.onrender.com",
+    "demoLiveUrl": "https://krishna-jewellers-y7h4.onrender.com",
+    "liveUrl": "https://krishna-jewellers-y7h4.onrender.com",
+    "techStack": [
+      "React 18",
+      "Flutter / PWA",
+      "Node.js",
+      "Express 5",
+      "MongoDB",
+      "Tailwind CSS",
+      "Real-time REST API",
+      "Google Maps API",
+      "Vite"
+    ],
+    "matrix": [
+      {
+        "metric": "Live Rates Ticker Sync",
+        "value": "< 95ms",
+        "context": "Admin updates push 24K, 22K, and 18K rates instantly to mobile storefront"
+      },
+      {
+        "metric": "Making Charges Transparency",
+        "value": "5% Flat",
+        "context": "Real-time pricing formula calculated per item weight on the fly"
+      },
+      {
+        "metric": "Digital Inquiries",
+        "value": "100% Direct",
+        "context": "Automated order consultation with product name, SKU, and exact gram weight"
+      },
+      {
+        "metric": "Store Directions Navigation",
+        "value": "1-Click",
+        "context": "Google Maps routing bringing customers directly to Khushipura, Rath store"
+      }
+    ],
+    "internationalAppeal": "Engineered for high-trust luxury jewellery retail with tamper-proof real-time gold rates, dynamic weight tracking, and local-first customer engagement pipelines.",
+    "relatedServices": [
+      "web-dev",
+      "app-dev",
+      "web-design"
+    ],
+    "servicesBreakdown": [
+      {
+        "serviceId": "app-dev",
+        "serviceTitle": "Mobile App Development",
+        "role": "Customer Mobile Application (Flutter / PWA)",
+        "summary": "Engineered an ergonomic mobile interface with live gold price ribbon (24K/22K/18K), multi-collection browsing (Rings, Necklaces, Chains, Kangan, Jhumki), and instant digital order enquiry.",
+        "deliverables": [
+          "Live 24K, 22K, 18K gold rate ticker ribbon with live store sync status",
+          "Dynamic promo banner ('5% Making Charges on all items')",
+          "Category explorer & search within category (e.g., search within Ring)",
+          "Granular weight displays (e.g. Estimated Weight: 10.200 Grams, 2.2g, 2.3g)",
+          "Bottom tab navigation: Home, Categories, Collections & Store Info"
+        ]
+      },
+      {
+        "serviceId": "web-dev",
+        "serviceTitle": "Web Development",
+        "role": "Web Storefront & Customer Portal",
+        "summary": "Built a responsive web client matching the mobile application layout, optimized for lightning-fast loads, mobile browsers, and local SEO indexing for fine jewellery seekers.",
+        "deliverables": [
+          "Cross-browser responsive web storefront",
+          "Instant digital store contact & enquiry system",
+          "Google Maps navigation to Khushipura, Rath store",
+          "Social links integration for Instagram and Facebook"
+        ]
+      },
+      {
+        "serviceId": "web-design",
+        "serviceTitle": "Web Designing & Brand Identity",
+        "role": "Luxury Gold & Black Visual Identity",
+        "summary": "Crafted a bespoke luxury aesthetic featuring gold foil accents (#FFD700 / #D4AF37), deep noir backgrounds (#0C0C0E), custom Krishna Jewellers emblem logo, and hallmark trust marks.",
+        "deliverables": [
+          "Luxury dark mode & gold brand palette",
+          "KJ signature emblem & typography",
+          "Ergonomic thumb-friendly navigation bar",
+          "High-impact product detail specification sheet"
+        ]
+      },
+      {
+        "serviceId": "admin-backend",
+        "serviceTitle": "Admin Panel & Merchant Suite",
+        "role": "Merchant Operations & Management Dashboard",
+        "summary": "Delivered an administrative back-office portal enabling Krishna Jewellers store managers to update daily gold rates per 10g, manage jewellery categories, upload photos, and update weight data.",
+        "deliverables": [
+          "Daily gold rate control (24K, 22K, 18K updates pushed live)",
+          "Jewellery item management (SKU, title, category, weight in grams)",
+          "Promotional banner controls and making charges configuration",
+          "Order and inquiry management tracking"
+        ]
+      },
+      {
+        "serviceId": "backend-services",
+        "serviceTitle": "Backend Microservices & Cloud Sync",
+        "role": "Node.js REST Services & Rate Broadcaster",
+        "summary": "Engineered secure Node.js & Express REST microservices with MongoDB database, powering real-time commodity rate broadcasting, category indexing, and optimized asset delivery.",
+        "deliverables": [
+          "Low-latency REST endpoints for rates, categories, and items",
+          "Secure JWT admin authentication and role-based permissions",
+          "Cloud asset storage and CDN delivery for jewelry photography",
+          "High-availability backend architecture with automated backup"
+        ]
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "/images/projects/krishna-jewellers/kj_home_rates.jpg",
+        "title": "Home Screen & Live Gold Rates Ticker",
+        "caption": "Live 24K, 22K, 18K gold rate ticker ribbon synchronized in real-time, festive 5% making charges promo banner, and quick category access.",
+        "tag": "CUSTOMER APP"
+      },
+      {
+        "url": "/images/projects/krishna-jewellers/kj_all_categories.jpg",
+        "title": "All Categories Grid Explorer",
+        "caption": "Searchable multi-collection directory showcasing Rings, Necklaces, Chains, Kangans, and Earrings with custom image cards.",
+        "tag": "CATALOG SYSTEM"
+      },
+      {
+        "url": "/images/projects/krishna-jewellers/kj_ring_catalog.jpg",
+        "title": "Category Catalog with Gram Weights",
+        "caption": "High-precision ring showcase displaying exact weights down to 0.1g (Gents Ring, Ring 1: 2.2g, Ring 2: 2.3g, Ring 3: 2.4g).",
+        "tag": "INVENTORY BROWSER"
+      },
+      {
+        "url": "/images/projects/krishna-jewellers/kj_product_detail.jpg",
+        "title": "Jewellery Spec Sheet & Digital Order",
+        "caption": "Detailed product viewer for Gents Chain with 10.200 Grams weight, hallmark pure gold certification, and direct digital inquiry.",
+        "tag": "PRODUCT SPEC & ORDER"
+      }
+    ]
+  },
+  {
+    "id": "proj-lume",
+    "title": "Lume — Global Video & Creator Streaming Ecosystem",
+    "client": "Lume Media Ecosystem",
+    "clientLocation": "San Francisco, USA / Global",
+    "category": "WEB DEV & MOBILE APP",
+    "image": "/images/projects/lume_preview.jpg",
+    "description": "Dual-client video streaming, creator studio, and community ecosystem. Integrates a high-performance React 18/Vite 5 web portal with a native Flutter iOS/Android application, powered by Node.js/Express 5 microservices, Supabase cloud video storage, and JWT token rotation.",
+    "deliverables": [
+      "React 18 & Vite 5 Video Streaming Web Portal",
+      "Flutter iOS & Android Mobile Application",
+      "Node.js & Express 5 REST Microservices",
+      "Supabase Cloud Video CDN & Storage Architecture",
+      "Creator Studio Analytics & Community Hub"
+    ],
+    "metrics": "<120ms API Latency // 99.98% Stream SLA",
+    "link": "https://lume-frontend.vercel.app",
+    "demoLiveUrl": "https://lume-frontend.vercel.app",
+    "liveUrl": "https://lume-frontend.vercel.app",
+    "techStack": [
+      "React 18",
+      "Vite 5",
+      "Flutter 3.x",
+      "Node.js",
+      "Express 5",
+      "MongoDB",
+      "Supabase CDN",
+      "JWT Auth",
+      "Cubit / BLoC"
+    ],
+    "matrix": [
+      {
+        "metric": "API Endpoint Latency",
+        "value": "< 110ms",
+        "context": "Optimized REST controllers with Mongoose lean query indexes"
+      },
+      {
+        "metric": "Video Buffer Latency",
+        "value": "Zero-Stall",
+        "context": "Chewie player & Supabase CDN chunk streaming"
+      },
+      {
+        "metric": "Cross-Platform Parity",
+        "value": "100% Sync",
+        "context": "Identical feature parity across Web, iOS, and Android"
+      },
+      {
+        "metric": "Uptime & Reliability",
+        "value": "99.98% SLA",
+        "context": "Production cluster with automated token refresh cycles"
+      }
+    ],
+    "internationalAppeal": "Engineered for international streaming traffic with distributed CDN edge routing, low-latency playback, and multi-timezone session recovery.",
+    "relatedServices": [
+      "web-dev",
+      "app-dev"
+    ]
+  },
+  {
+    "id": "proj-documind",
+    "title": "DocuMind AI — Autonomous Document Intelligence Platform",
+    "client": "DocuMind Enterprise Systems",
+    "clientLocation": "San Francisco, CA / New York, USA",
+    "category": "WEB DEV & SEO",
+    "image": "/images/projects/documind_preview.jpg",
+    "description": "Production-grade autonomous document intelligence and Agentic RAG platform. Features LangGraph ReAct reasoning loops, Qdrant vector database, asynchronous Redis/RQ background ingestion, persistent conversational memory (Mem0), and Google Gemini 2.0 Flash.",
+    "deliverables": [
+      "Autonomous ReAct Reasoning & Query Routing Loop",
+      "FastAPI ASGI Microservices & Redis RQ Task Queue",
+      "Qdrant Rust-Based Vector DB & Semantic Search",
+      "React 18 & Vite Enterprise Document Workspace",
+      "Deterministic Multi-Stage PDF Ingestion Pipeline"
+    ],
+    "metrics": "99.4% Retrieval Precision // <800ms Synthesis",
+    "link": "https://documind-ai.vercel.app",
+    "demoLiveUrl": "https://documind-ai.vercel.app",
+    "liveUrl": "https://documind-ai.vercel.app",
+    "techStack": [
+      "Python 3.11",
+      "FastAPI",
+      "LangGraph",
+      "LangChain",
+      "Qdrant Vector DB",
+      "Gemini 2.0 Flash",
+      "Redis RQ",
+      "MongoDB",
+      "Docker",
+      "React 18"
+    ],
+    "matrix": [
+      {
+        "metric": "Semantic Retrieval Precision",
+        "value": "99.4%",
+        "context": "Intelligent overlapping chunking + high-dimension vector index"
+      },
+      {
+        "metric": "End-to-End Query Synthesis",
+        "value": "< 800ms",
+        "context": "Fast-path Gemini routing for direct queries with zero wait"
+      },
+      {
+        "metric": "Document Ingestion Speed",
+        "value": "10x Faster",
+        "context": "Asynchronous Redis RQ background workers prevent UI blocking"
+      },
+      {
+        "metric": "Hallucination Reduction",
+        "value": "-88%",
+        "context": "ReAct observation feedback with Pydantic schema validation"
+      }
+    ],
+    "internationalAppeal": "Engineered for Fortune 500 & multinational legal, financial, and compliance teams seeking enterprise-grade document intelligence.",
+    "relatedServices": [
+      "web-dev",
+      "seo"
+    ]
+  },
+  {
+    "id": "proj-snapyfile",
+    "title": "SnapyFile — 100% In-Browser Privacy Media Suite",
+    "client": "SnapyFile Labs",
+    "clientLocation": "London, UK / Berlin, Germany",
+    "category": "WEB DEV & UI/UX",
+    "image": "/images/projects/snapyfile_preview.jpg",
+    "description": "Zero-server-upload, privacy-centric in-browser media utility platform featuring 50+ converters, audio waveform editors, AI background removers, and PDF tools. All processing executes 100% client-side in RAM via WebAssembly and HTML5 Canvas.",
+    "deliverables": [
+      "50+ In-Browser File Converters & Image Editors",
+      "Sobel-Edge & Floodfill AI Background Remover",
+      "Interactive Audio Waveform Studio & Metronome",
+      "Client-Side PDF Page Organizer, Merger & Splitter",
+      "Zero Cloud-Bandwidth Serverless Architecture"
+    ],
+    "metrics": "$0/mo Server Cost // 100% GDPR Compliant",
+    "link": "https://snapyfile.netlify.app",
+    "demoLiveUrl": "https://snapyfile.netlify.app",
+    "liveUrl": "https://snapyfile.netlify.app",
+    "techStack": [
+      "Next.js",
+      "React",
+      "WebAssembly (WASM)",
+      "HTML5 Canvas",
+      "Web Audio API",
+      "IndexedDB",
+      "Tailwind CSS"
+    ],
+    "matrix": [
+      {
+        "metric": "Cloud Bandwidth Incurred",
+        "value": "0 Bytes",
+        "context": "100% client-side execution saves thousands in AWS bills"
+      },
+      {
+        "metric": "Processing Latency",
+        "value": "< 45ms",
+        "context": "Instant in-memory WebAssembly compute without network hops"
+      },
+      {
+        "metric": "Privacy / Compliance",
+        "value": "100% In-RAM",
+        "context": "Zero data leaves user device — strict GDPR & HIPAA safe"
+      },
+      {
+        "metric": "Core Web Vitals",
+        "value": "100 / 100",
+        "context": "Perfect Lighthouse score across Performance, SEO & PWA"
+      }
+    ],
+    "internationalAppeal": "Ideal for strict European (GDPR) and North American enterprise compliance where sensitive client data cannot be uploaded to third-party clouds.",
+    "relatedServices": [
+      "web-dev",
+      "web-design",
+      "editing"
+    ]
+  },
+  {
+    "id": "proj-copyclip",
+    "title": "CopyClip — Ultimate Cross-Platform Productivity Ecosystem",
+    "client": "CopyClip (Founder: Bhragunandan Prajapati)",
+    "clientLocation": "Toronto, Canada / Austin, TX",
+    "category": "APP DEV & ANIMATION",
+    "image": "/images/projects/copyclip_preview.jpg",
+    "description": "Hyper-responsive cross-platform mobile and desktop productivity application built with Flutter and Dart. Features offline-first Hive NoSQL storage, 60fps kinetic micro-animations, interactive financial analytics (fl_chart), rich Markdown editing (Quill), and gamified XP engine.",
+    "deliverables": [
+      "Flutter Cross-Platform Mobile App (iOS 17+ & Android 14+)",
+      "Offline-First NoSQL Storage Engine (Hive 2.2)",
+      "Interactive Financial & Mood Analytics (fl_chart)",
+      "Glassmorphism UI System & 60 FPS Micro-Interactions",
+      "Gamification Engine with Medals, Streaks & XP"
+    ],
+    "metrics": "60 FPS Locked // <12ms Local NoSQL Speed",
+    "link": "https://copyclip.vercel.app",
+    "demoLiveUrl": "https://copyclip.vercel.app",
+    "liveUrl": "https://copyclip.vercel.app",
+    "techStack": [
+      "Flutter 3.8.1",
+      "Dart",
+      "Hive NoSQL",
+      "fl_chart",
+      "Flutter Quill",
+      "Bloc / Cubit",
+      "GoRouter",
+      "Rive Animations",
+      "Glassmorphism 3.0"
+    ],
+    "matrix": [
+      {
+        "metric": "UI Frame Rendering",
+        "value": "60 FPS",
+        "context": "Zero drop-frame kinetic transitions and gesture animations"
+      },
+      {
+        "metric": "Local Storage Query Speed",
+        "value": "< 12ms",
+        "context": "Hive binary NoSQL engine for instantaneous search retrieval"
+      },
+      {
+        "metric": "Offline Reliability",
+        "value": "100%",
+        "context": "Complete functionality without an active internet connection"
+      },
+      {
+        "metric": "Store Quality Rating",
+        "value": "4.9 / 5.0★",
+        "context": "Highly rated ergonomic design tailored for professional productivity"
+      }
+    ],
+    "internationalAppeal": "Meets stringent Western app-store guidelines, providing native fluidity, privacy-first offline storage, and delightful micro-interactions.",
+    "relatedServices": [
+      "app-dev",
+      "animation",
+      "web-design"
+    ]
+  }
+]
