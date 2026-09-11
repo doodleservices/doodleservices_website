@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import CornerBrackets from "@/components/common/CornerBrackets";
 import Button from "@/components/common/Button";
 import { servicesData } from "@/resources/data/services.data";
-import { Send, CheckCircle2, AlertCircle } from "lucide-react";
+import { siteConfig } from "@/resources/data/siteConfig";
+import { Send, CheckCircle2, AlertCircle, Mail, ExternalLink } from "lucide-react";
 
 export default function QuoteForm() {
   const [selectedServices, setSelectedServices] = useState<string[]>([
@@ -20,6 +21,7 @@ export default function QuoteForm() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [mailtoUrl, setMailtoUrl] = useState("");
 
   const toggleService = (title: string) => {
     if (selectedServices.includes(title)) {
@@ -29,15 +31,49 @@ export default function QuoteForm() {
     }
   };
 
+  const constructMailtoUrl = () => {
+    const subject = `[Project Proposal] ${formData.name ? formData.name : "New Client"} - ${selectedServices.length > 0 ? selectedServices.join(", ") : "General Inquiry"}`;
+    const bodyLines = [
+      "Hello Doodle Services Team,",
+      "",
+      "Here are the details for my project proposal:",
+      "",
+      "----------------------------------------",
+      "CLIENT & CONTACT SPECIFICATIONS",
+      "----------------------------------------",
+      `• Client Name: ${formData.name || "N/A"}`,
+      `• Email: ${formData.email || "N/A"}`,
+      `• Phone / WhatsApp: ${formData.phone || "Not provided"}`,
+      `• Estimated Sprint Budget: ${formData.budget || "Not specified"}`,
+      `• Disciplines Selected: ${selectedServices.length > 0 ? selectedServices.join(", ") : "None specified"}`,
+      "",
+      "----------------------------------------",
+      "PROJECT VISION & DELIVERABLE OBJECTIVES",
+      "----------------------------------------",
+      formData.details || "N/A",
+      "",
+      "----------------------------------------",
+      "Transmitted via Doodle Services Portal",
+    ];
+
+    const body = bodyLines.join("\n");
+    return `mailto:${siteConfig.contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
 
-    // Simulate direct transmission
+    const generatedMailto = constructMailtoUrl();
+    setMailtoUrl(generatedMailto);
+
+    // Redirect user to their email client with all input data pre-filled
+    window.location.href = generatedMailto;
+
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
-    }, 800);
+    }, 400);
   };
 
   if (submitted) {
@@ -49,13 +85,30 @@ export default function QuoteForm() {
         <h3 className="font-mono text-2xl font-bold uppercase text-[#111111] mb-2">
           TRANSMISSION RECEIVED // DISCOVERY QUEUED
         </h3>
-        <p className="text-sm text-[#55524E] max-w-md mx-auto mb-6">
-          Thank you, <span className="font-semibold">{formData.name}</span>. Our engineering & design leads have received your specifications for{" "}
-          <span className="font-mono text-[#FF7120]">
-            {selectedServices.join(", ")}
+        <p className="text-sm text-[#55524E] max-w-md mx-auto mb-4">
+          Thank you, <span className="font-semibold">{formData.name}</span>. Your proposal data has been compiled and redirected to your email client to send to{" "}
+          <span className="font-mono text-[#FF7120] font-bold">
+            {siteConfig.contactEmail}
           </span>
-          . Expect our proposal review within 24 hours.
+          .
         </p>
+
+        {mailtoUrl && (
+          <div className="mb-6">
+            <a
+              href={mailtoUrl}
+              className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#111111] text-white font-mono text-xs uppercase tracking-wider font-semibold hover:bg-[#FF7120] transition-colors"
+            >
+              <Mail className="w-3.5 h-3.5" />
+              <span>RE-OPEN IN EMAIL CLIENT</span>
+              <ExternalLink className="w-3 h-3" />
+            </a>
+            <p className="text-[11px] text-[#777] font-mono mt-2">
+              If your email application did not launch automatically, click the button above.
+            </p>
+          </div>
+        )}
+
         <button
           onClick={() => setSubmitted(false)}
           className="font-mono text-xs text-[#FF7120] uppercase hover:underline cursor-pointer font-bold"
